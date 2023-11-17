@@ -11,6 +11,7 @@ public abstract class Animal {
 	}
 	
 	public abstract void animalNoise();
+	public abstract void animalFood();
 
 	public String getSpecies() {
 		return species;

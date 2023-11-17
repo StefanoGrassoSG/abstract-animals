@@ -21,6 +21,10 @@ public class Dolphin extends Animal implements Iswimming{
 	public void animalNoise() {
 		System.out.println("Verso: fischio");
 	}
+	@Override
+	public void animalFood() {
+		System.out.println("Pesciolini");
+	}
 
 	public int getLength() {
 		return length;

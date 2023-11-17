@@ -23,6 +23,10 @@ public class Sparrow extends Animal implements Iflying {
 	public void animalNoise() {
 		System.out.println("Verso: canto");
 	}
+	@Override
+	public void animalFood() {
+		System.out.println("Insetti");
+	}
 
 	public String getColor() {
 		return color;

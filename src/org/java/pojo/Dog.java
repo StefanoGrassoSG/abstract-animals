@@ -28,6 +28,10 @@ public class Dog extends Animal implements Iswimming{
 	public void animalNoise() {
 		System.out.println("Verso: abbaio");
 	}
+	@Override
+	public void animalFood() {
+		System.out.println("Crocchette");
+	}
 	
 	@Override
 	public String toString() {

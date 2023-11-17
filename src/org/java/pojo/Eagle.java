@@ -21,6 +21,10 @@ public class Eagle extends Animal implements Iflying{
 	public void animalNoise() {
 		System.out.println("Verso: fischio acuto");
 	}
+	@Override
+	public void animalFood() {
+		System.out.println("Carcasse");
+	}
 
 	public String getEagleSpecies() {
 		return eagleSpecies;
